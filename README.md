@@ -19,7 +19,7 @@ Short videos about [RustyZoo](https://rustyzoo.com), an open-source engine for Z
 
 The pictures come from the public [screenshots](https://github.com/RustyZoo/screenshots) gallery and the website; the music is synthesized.
 
-**Promo credits:** pictures from the public screenshots gallery (the original game and RustyZoo), animal calls from the original game. Zoo Tycoon logo, graphics and sounds (c) Microsoft; RustyZoo is not affiliated with Microsoft.
+**Promo credits:** pictures from the public screenshots gallery (the original game and RustyZoo), music and animal calls from the original game. Zoo Tycoon logo, graphics and sounds (c) Microsoft; RustyZoo is not affiliated with Microsoft.
 
 **How the promo was made:** each scene is an HTML page in the website's style, rendered frame by frame with Playwright and encoded with ffmpeg.
-The music is synthesized in Python with numpy at 128 BPM, timed to the cuts.
+The music is the game's own main menu theme, edited to 30 s in Python with numpy, with the cuts timed to its beat (90 BPM).
